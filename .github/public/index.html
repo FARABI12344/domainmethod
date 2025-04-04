@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Your Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Create a Custom Page</h1>
+  <form action="/create" method="POST">
+    <label>Page Slug (e.g. my-page):</label><br>
+    <input type="text" name="slug" required><br><br>
+    <label>Page Content (HTML allowed):</label><br>
+    <textarea name="content" rows="10" cols="40" required></textarea><br><br>
+    <button type="submit">Create Page</button>
+  </form>
+</body>
+</html>
